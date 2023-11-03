@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>14.1. Taller: Responsive Design y Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+          <li class="nav-item px-lg-5 px-sm-3 px-1">
+            <a class="navbar-brand link-light" aria-current="page" href="#"
+              >No girl fact</a
+            >
+          </li>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item px-lg-5 px-sm-3 px-1">
+              <a class="nav-link link-light" href="#">oh</a>
+            </li>
+            <li class="nav-item px-lg-5 px-sm-3 px-1 dropdown">
+              <a
+                class="nav-link dropdown-toggle link-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                part must
+              </a>
+              <ul class="dropdown-menu bg-secondary">
+                <li><a class="dropdown-item link-light" href="#">high</a></li>
+                <li><a class="dropdown-item link-light" href="#">my</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item link-light" href="#">he be</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"
+                ><button
+                  class="btn link-light px-lg-5 px-sm-3 px-1 d-lg-none"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasResponsive"
+                  aria-controls="offcanvasResponsive"
+                >
+                  Opciones
+                </button></a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search" data-bs-theme="light">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid text-center my-5">
+      <div class="text-center mt-3">
+        <h1>You are viewing dummy text in English</h1>
+      </div>
+
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <h4 class="d-block w-100">
+              His having within saw become ask passed misery giving
+            </h4>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <h4 class="d-block w-100">
+              She travelling acceptance men unpleasant her especially entreaties
+              lawr
+            </h4>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <h4 class="d-block w-100">
+              Surprise steepest recurred landlord mr wandered amounted of
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-tertiary p-4">
+      <div class="row">
+        <div class="col-lg-2 d-none d-lg-block mt-4 ms-5">
+          <div class="border rounded p-2">
+            <a href="#"><small>Opcion 1</small></a>
+          </div>
+          <div class="border rounded p-2">
+            <a href="#"><small>Opcion 2</small></a>
+          </div>
+          <div class="border rounded p-2">
+            <a href="#"><small>Opcion 3</small></a>
+          </div>
+          <div class="border rounded p-2">
+            <a href="#"><small>Opcion 4</small></a>
+          </div>
+        </div>
+
+        <div class="col-lg-9 col-md-12">
+          <div class="row row-cols-lg-3">
+            <div
+              class="offcanvas-lg offcanvas-top offcanvas"
+              tabindex="-1"
+              id="offcanvasResponsive"
+              aria-labelledby="offcanvasResponsiveLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  data-bs-target="#offcanvasResponsive"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="col-lg-4">
+                  <div class="border rounded p-2">
+                    <a href=" "><small>Opcion 1</small></a>
+                  </div>
+                  <div class="border rounded p-2">
+                    <a href=" "><small>Opcion 2</small></a>
+                  </div>
+                  <div class="border rounded p-2">
+                    <a href=" "><small>Opcion 3</small></a>
+                  </div>
+                  <div class="border rounded p-2">
+                    <a href=" "><small>Opcion 4</small></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-11 p-3">
+              <p class="text-justified bg-light">
+                Speedily say has suitable disposal add boy. On forth doubt miles
+                of child. Exercise joy man children rejoiced. Yet uncommonly his
+                ten who diminution astonished. Demesne new manners savings
+                staying had. Under folly balls death own point now men. Match
+                way these she avoid see dea th. She whose drift their fat off.
+                My to considered delightful invitation announcing of no
+                decisively boisterous. Did add dashwoods deficient man concluded
+                additions resources. Houses latter an valley be indeed wished
+                merely in my.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-11 p-3">
+              <p class="text-justified bg-light">
+                Her extensive perceived may any sincerity extremity. Indeed add
+                rather may pretty see. Old propriety delighted explained
+                perceived otherwise objection saw ten her. Doubt merit sir the
+                right these alone keeps. By sometimes intention smallness he
+                northward. Consisted we otherwise arranging commanded discovery
+                it explained. Does cold even song like two yet been. Literature
+                interested announcing for terminated him inquietude day shy.
+                Himself he fertile chicken perhaps waiting if highest no it.
+                Continued promotion has consulted fat improving not way.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-11 p-3">
+              <p class="text-justified bg-light">
+                Little afraid its eat looked now. Very ye lady girl them good me
+                make. It hardly cousin me always. An shortly village is raising
+                we shewing replied. She the favourable partiality inhabiting
+                travelling impression put two. His six are entreaties instrument
+                acceptance unsatiable her. Amongst as or on herself chapter
+                entered carried no. Sold old ten are quit lose deal his sent.
+                You correct how sex several far distant believe journey parties.
+                We shyness enquire uncivil affixed it carried to. Houses latter
+                an valley be indeed wished merely in my.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-11 p-3">
+              <p class="text-justified bg-light">
+                At distant inhabit amongst by. Appetite welcomed interest the
+                goodness boy not. Estimable education for disposing pronounce
+                her. John size good gay plan sent old roof own. Inquietude saw
+                understood his friendship frequently yet. Nature his marked ham
+                wished. And painted letters forming far village elderly compact.
+                Her rest west each spot his and you knew. Estate gay wooded
+                depart six far her.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-11 p-3">
+              <p class="text-justified bg-light">
+                Inquietude simplicity terminated she compliment remarkably few
+                her nay. The weeks are ham asked jokes. Neglected perceived shy
+                nay concluded. Comfort reached gay perhaps chamber his six
+                detract besides add To sure calm much most long me mean. Not
+                mile draw plan snug next all. His six are entreaties instrument
+                acceptance unsatiable her. Houses latter an valley be indeed
+                wished merely in my. Money doubt oh drawn every or an china.
+                Visited out friends for expense message set eat.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-11 p-3">
+              <p class="text-justified bg-light">
+                Full he none no side. Uncommonly surrounded considered for him
+                are its. It we is read good soon. My to considered delightful
+                invitation announcing of no decisively boisterous. Did add
+                dashwoods deficient man concluded additions resources. Or
+                landlord packages overcame distance smallest in recurred. Wrong
+                maids or be asked no on enjoy. Household few sometimes out
+                attending described. Lain just fact four of am meet high.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-11 p-3">
+              <p class="text-justified bg-light">
+                Comfort reached gay perhaps chamber his six detract besides add
+                To sure calm much most long me mean. Able rent long in do we.
+                Uncommonly no it announcing melancholy an in. My to considered
+                delightful invitation announcing of no decisively boisterous.
+                Did add dashwoods deficient man concluded additions
+                resources.Mirth learn it he given. Secure shy favour length all
+                twenty denote. He felicity no an at packages answered opinions
+                juvenile.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-11 p-3">
+              <p class="text-justified bg-light">
+                Was justice improve age article between. No projection as up
+                preference reasonably delightful celebrated. Preserved and
+                abilities assurance tolerably breakfast use saw. And painted
+                letters forming far village elderly compact. Her rest west each
+                spot his and you knew. Estate gay wooded depart six far her. Of
+                we be have it lose gate bred. Do separate removing or expenses
+                in. Had covered but evident chapter matters anxious.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
